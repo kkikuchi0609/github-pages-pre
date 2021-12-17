@@ -125,7 +125,7 @@ footer small{
   background-size: cover;
 }
 #about{
-  background-image: url(https://github.com/kkikuchi0609/github-pages-pre/blob/main/img/be_about.png);
+  background-image: url(img/be_about.png);
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
