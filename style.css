@@ -58,7 +58,7 @@ header{
   list-style: none;
 }
 .global-nav li a{
-  color: #red;
+  color: #ffffff;
 }
 .global-nav li a:hover{
   border-bottom: 2px solid #ffffff;
