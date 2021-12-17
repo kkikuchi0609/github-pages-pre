@@ -58,10 +58,10 @@ header{
   list-style: none;
 }
 .global-nav li a{
-  color: #996666;
+  color: #ffffff;
 }
 .global-nav li a:hover{
-  border-bottom: 2px solid #996666;
+  border-bottom: 2px solid #ffffff;
   padding-bottom: 3px;
   text-decoration: none;
 }
@@ -83,8 +83,7 @@ footer small{
 #index h1{
   font-size: 100px;
   line-height: 1;
-  color:#b7282e
-  ;
+  color:#ffffff;
   font-family: 'Bitter',sans-serif;
   margin-bottom: 50px;
 }
@@ -124,4 +123,92 @@ footer small{
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
+}
+#about{
+  background-image: url(img/be_about.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+#wrap{
+  clear: both;
+  background-color: #ffffff;
+  margin-top:  220px;
+  padding:  35px 0 ;
+}
+.main-center{
+  width:  940px;
+  margin: 0 auto;
+}
+h1 {
+  font-family: 'Bitter',serif;
+  font-size: 36px;
+  border-bottom: 1px solid #cccccc;
+}
+h2 {
+  font-family: 'Bitter',serif;
+  font-size: 24px;
+}
+.icon {
+  content:"";
+  padding-right: 10px;
+  border-left: 7px solid #9cb4a4;
+}
+#about .profile-text{
+  width: 540px;
+  float: left;
+}
+#about .profile-text span{
+  font-weight: bold;
+}
+#about .profile-image{
+  float: right;
+}
+.clearfix: after{
+  content:"";
+  display: block;
+  clear:both;
+}
+section{
+  margin-bottom: 35px;
+}
+#about .career th{
+  width: 240px;
+  background-color: #f0f0f0;
+  padding: 12px 0;
+  border: 1px solid #cccccc;
+}
+#about .career td{
+  width: 660px;
+  padding: 12px 0 12px 40px;
+  border: 1px solid #cccccc;
+}
+table{
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+footer{
+  text-align: center;
+  color: 20px 0 ;
+  background-color: #767671;
+}
+#index #wrap{
+  background-color: transparent;
+  margin-top:0;
+  padding: 0;
+}
+#index h1{
+  font-size: 100px;
+  line-height: 1;
+  color: #dc143c;
+  font-family: 'Bitter',serif;
+  margin-bottom: 50px;
+  border:none;
+}
+#index footer{
+  width: 960px;
+  margin: 150px auto 0 auto;
+  text-align: left;
+  background-color: transparent;
 }
